@@ -33,7 +33,7 @@ h1{
     border:  1px solid #78716C ;
 }
 .footer-menu {
-    margin: 10px 20% 0;
+    margin: 10px 35% 0;
     border: 1px solid #78716C ;
     display: flex;
     justify-content: space-between;
@@ -41,4 +41,36 @@ h1{
 .footer-menu span {
     border: 1px solid #78716C ;
     margin: 5px 5px;
+}
+.footer-text-1{
+    margin: 10% 10% 0;
+    text-align: center;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #65a08e;
+    color: white;
+    text-align: center;
+}
+
+.footer-menu :hover{
+
+}
+
+.footer .fab{
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 5px;
+    /*background: red;*/
+}
+.footer .fab:hover{
+    background: yellow;
+    color: #65a08e;
+    /*border-color: black;*/
+}
+.social{
+    margin-bottom: 10px;
 }
